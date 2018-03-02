@@ -13,6 +13,7 @@ build:
   script: 
     - ./autogen.sh --disable-gtk3-engine
     - make
+    - make install
   #artifacts:
   #  paths:
   #    - mybinary
