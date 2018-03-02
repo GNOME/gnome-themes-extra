@@ -9,7 +9,7 @@ build:
   # instead of calling g++ directly you can also use some build toolkit like make
   # install the necessary build tools when needed
   before_script: 
-    - apt update && apt -y --no-install-recommends --no-install-suggests install make autoconf gnome-common libgtk2.0-dev
+    - apt update && apt -y --no-install-recommends install make autoconf gnome-common libgtk2.0-dev
   script: 
     - ./autogen.sh --disable-gtk3-engine
     - make
