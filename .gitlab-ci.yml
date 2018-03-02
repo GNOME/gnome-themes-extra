@@ -11,7 +11,7 @@ build:
   before_script: 
     - apt update && apt -y install make autoconf 
   script: 
-    - ./configure
+    - ./autogen.sh
     - make
   #artifacts:
   #  paths:
@@ -22,7 +22,7 @@ build:
   #     - "*.o"
 
 # run tests using the binary built before
-test:
-  stage: test
-  script:
-    - ./runmytests.sh
+#test:
+#  stage: test
+#  script:
+#    - ./runmytests.sh
