@@ -11,7 +11,7 @@ build:
   before_script: 
     - apt update && apt -y install make autoconf gnome-common
   script: 
-    - ./autogen.sh
+    - ./autogen.sh --disable-gtk3-engine
     - make
   #artifacts:
   #  paths:
