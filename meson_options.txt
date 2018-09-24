@@ -1,0 +1,1 @@
+option('adwaita-engine', type: 'boolean', value: true, description: 'Build the Adwaita theme engine')
