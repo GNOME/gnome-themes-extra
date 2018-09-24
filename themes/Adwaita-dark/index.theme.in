@@ -1,7 +1,7 @@
 [X-GNOME-Metatheme]
-_Name=Adwaita-dark
+Name=Adwaita-dark
 Type=X-GNOME-Metatheme
-_Comment=There was only one
+Comment=There was only one
 Encoding=UTF-8
 GtkTheme=Adwaita-dark
 IconTheme=Adwaita

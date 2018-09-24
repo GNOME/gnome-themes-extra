@@ -1,7 +1,7 @@
 [X-GNOME-Metatheme]
-_Name=High Contrast
+Name=High Contrast
 Type=X-GNOME-Metatheme
-_Comment=High contrast theme
+Comment=High contrast theme
 Encoding=UTF-8
 GtkTheme=HighContrast
 IconTheme=HighContrast
