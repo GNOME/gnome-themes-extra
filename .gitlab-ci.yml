@@ -6,8 +6,8 @@ image: gcc
 build:
   stage: build
   before_script: 
-    - apt update -qq && apt -y -qq --no-install-recommends install make autoconf gnome-common libgtk2.0-dev
+    - apt update -qq && apt -y -qq --no-install-recommends install meson gnome-common libgtk2.0-dev
   script: 
-    - ./autogen.sh --disable-gtk3-engine
-    - make
-    - make install
+    - meson . _build --prefix=/usr
+    - ninja -C _build
+    - ninja -C _build install
