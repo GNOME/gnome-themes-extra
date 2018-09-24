@@ -1,13 +1,13 @@
-# use the official gcc image, based on debian
-# can use verions as well, like gcc:5.2
-# see https://hub.docker.com/_/gcc/
-image: gcc
+image: fedora:rawhide
 
-build:
-  stage: build
+variables:
+  DEPENDENCIES: meson gtk2-devel
+
+build_stable:
   before_script: 
-    - apt update -qq && apt -y -qq --no-install-recommends install make autoconf gnome-common libgtk2.0-dev
+    - dnf update -y --nogpgcheck
+    - dns install -y --nogpgcheck $DEPENDENCIES
   script: 
-    - ./autogen.sh --disable-gtk3-engine
-    - make
-    - make install
+    - meson . _build --prefix=/usr
+    - ninja -C _build
+    - ninja -C _build install
