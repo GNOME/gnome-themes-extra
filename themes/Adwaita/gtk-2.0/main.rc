@@ -96,9 +96,6 @@ style "default" {
   GtkTreeView::vertical-separator   = 0
   GtkTreeView::horizontal-separator = 4
   GtkTreeView::allow-rules          = 0
-  # Set this because some apps read it
-  GtkTreeView::odd-row-color        = @base_color
-  GtkTreeView::even-row-color       = @base_color
 
   GtkExpander::expander-size = 16
 
