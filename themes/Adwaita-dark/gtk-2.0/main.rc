@@ -21,7 +21,7 @@ style "default" {
   GtkToolButton::icon-spacing  = 4
 
   GtkWidget::tooltip-radius    = 3
-  GtkWidget::tooltip-alpha     = 235
+  GtkWidget::tooltip-alpha     = 204
   GtkWidget::new-tooltip-style = 1 #for compatibility
 
   GtkWidget::link-color              = @link_color
@@ -1523,14 +1523,22 @@ style "menubar_item" {
 
 style "menu" {
 
-  xthickness = 0
-  ythickness = 0
+  xthickness = 1
+  ythickness = 1
 
   bg[NORMAL]      = @menu_color
   bg[INSENSITIVE] = @menu_color
   bg[PRELIGHT]    = @menu_color
   bg[SELECTED]    = @selected_bg_color
 
+  engine "pixmap" {
+    image {
+      function    = BOX
+      state       = NORMAL
+      file        = "assets/menu-border.png"
+      border      = {1, 1, 1, 1}
+    }
+  }
 }
 
 style "menu_item" {
