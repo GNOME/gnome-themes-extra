@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-themes-standard\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"themes-standard&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-03-22 18:58+0000\n"
-"PO-Revision-Date: 2017-04-10 23:31+0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-themes-extra/"
+"issues\n"
+"POT-Creation-Date: 2021-05-13 15:35+0000\n"
+"PO-Revision-Date: 2022-03-28 18:38+0200\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "Language: hr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2016-09-15 13:41+0000\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: ../themes/Adwaita-dark/index.theme.in.h:1
 msgid "Adwaita-dark"
@@ -25,7 +25,7 @@ msgstr "Adwaita-tamno"
 
 #: ../themes/Adwaita-dark/index.theme.in.h:2
 msgid "There was only one"
-msgstr "Postoji samo jedan"
+msgstr "Bio je samo jedan"
 
 #: ../themes/Adwaita/index.theme.in.h:1
 msgid "Adwaita"
