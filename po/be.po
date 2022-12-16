@@ -7,25 +7,25 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-themes-standard.master\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"themes-standard&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-03-22 18:58+0000\n"
-"PO-Revision-Date: 2017-03-26 16:44+0300\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-themes-extra/"
+"issues\n"
+"POT-Creation-Date: 2022-11-23 01:36+0000\n"
+"PO-Revision-Date: 2022-12-16 04:17+0300\n"
 "Last-Translator: Yuras Shumovich <shumovichy@gmail.com>\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: ../themes/Adwaita-dark/index.theme.in.h:1
 msgid "Adwaita-dark"
-msgstr "Adwaita цёмная"
+msgstr "Adwaita (цёмная)"
 
 #: ../themes/Adwaita-dark/index.theme.in.h:2
 msgid "There was only one"
-msgstr "Адзіны і непаўторны"
+msgstr "Была толькі адна"
 
 #: ../themes/Adwaita/index.theme.in.h:1
 msgid "Adwaita"
@@ -33,7 +33,7 @@ msgstr "Adwaita"
 
 #: ../themes/Adwaita/index.theme.in.h:2
 msgid "There is only one"
-msgstr "Адзіны і непаўторны"
+msgstr "Ёсць толькі адна"
 
 #: ../themes/HighContrast/index.theme.in.h:1
 msgid "High Contrast"
@@ -41,7 +41,7 @@ msgstr "Высокая кантраснасць"
 
 #: ../themes/HighContrast/index.theme.in.h:2
 msgid "High contrast theme"
-msgstr "Матыў з высокай кантраснасцю"
+msgstr "Тэма з высокай кантраснасцю"
 
 #~ msgid "Default Background"
 #~ msgstr "Прадвызначаны фон"
